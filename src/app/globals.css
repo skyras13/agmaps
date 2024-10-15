@@ -1,10 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #83BDB6; /* Light Blue-Green */
+  --foreground: #150031; /* Dark Purple */
+  --primary: #006400; /* Dark Green */
+  --accent: #F27655; /* Coral */
+  --secondary: #75EA74; /* Light Green */
+  --navbar-footer-bg: #006400; /* Dark Green */
+  --navbar-footer-text: #FFFFFF; /* White */
 }
 
 @media (prefers-color-scheme: dark) {
@@ -15,9 +23,7 @@
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
 }
 
 @layer utilities {
